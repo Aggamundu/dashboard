@@ -1,0 +1,145 @@
+html{
+    font-family: monospace;
+    min-height:100vh;
+}
+body{
+    margin: 0px;
+    height: 100vh;
+    background-color: #e2e8f0;
+}
+.icon{
+    width:24px;
+    height:24px;
+}
+.side-button{
+    border-radius: 5px;
+    border: none;
+    background-color:#cbd5e1;
+    color:black;
+    font-family: monospace;
+    display:flex;
+    align-items: center;
+}
+.side-button:hover{
+    .icon {
+        filter: brightness(0) invert(1); /* Makes the icon white */
+    }
+        color:white;
+        background-color: black;
+    
+}
+.activity{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+
+.card-icons{
+    text-decoration: none;;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(275px,1fr));
+    grid-template-rows: repeat(3,1fr);
+    gap:10px
+}
+.searchRow{
+    display:flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcomeRow{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    display:flex;
+    
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2) ;
+    position: fixed;
+    width:87vw;
+}
+input{
+    width: 60vw;
+}
+.sidebar{
+    min-width: 200px;
+    z-index: 1;
+    position:fixed;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    background-color: #cbd5e1;
+}
+.link{
+    margin-right:50px;
+    background-color: black;
+    color:white;
+    font-family: monospace;
+    min-width: 100px;
+    height:60px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.buttons{
+    margin-right: 100px;
+}
+.info{
+    display:grid;
+    padding-left: 20px;
+    margin-left: 180px;
+}
+.card{
+    background-color: #f8fafc;
+    border-radius: 7px;
+}
+.card:hover{
+    transform: translateY(-5px);
+    color:white;
+    background-color: black;
+}
+.meat{
+    display:flex;
+    margin-top:122.2px;
+}
+
+.announcement{
+    color:white;
+}
+
+#anctab{
+    background-color: black;
+    padding:5px 5px;
+    border-radius:5px;
+}
+button:hover{
+    cursor: pointer;
+}
+.trending{
+    background-color: white;
+    color:black;
+}
+.pfp{
+    width:35px;
+    height:35px;
+}
+.tweet{
+    padding:5px 5px;
+    margin:0px;
+    gap:15px;
+}
+.account{
+    margin:0px;
+}
